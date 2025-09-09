@@ -1,4 +1,4 @@
-package com.spiro.animalfarm;
+package com.spiro.animalfarm.view;
 
 class Animal {
     String name;

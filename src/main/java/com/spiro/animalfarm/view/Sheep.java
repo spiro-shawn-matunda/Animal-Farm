@@ -1,4 +1,4 @@
-package com.spiro.animalfarm;
+package com.spiro.animalfarm.view;
 
 public class Sheep extends Animal {
     public Sheep(String name, int age, double weight) {

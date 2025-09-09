@@ -1,8 +1,9 @@
-package com.spiro.animalfarm;
+package com.spiro.animalfarm.view;
 
+
+import com.spiro.animalfarm.view.Animal;
 
 public class Chicken extends Animal {
-
     String name;
     int age;
     double weight;
@@ -24,7 +25,7 @@ public class Chicken extends Animal {
         System.out.println(name+ "has feathers ");
     }
 
-        public Chicken(String name, int age, double weight) {
+    public Chicken(String name, int age, double weight) {
             super(name, age, weight, "Cluck");
         }
         public void layEgg() {
